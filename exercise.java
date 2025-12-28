@@ -9,19 +9,21 @@ public class exercise {
 
         Scanner scanner = new Scanner(System.in);
 
-    double result;
+    double result= 0;
     double a;
     double b;
     double c;
 
-    result = Math.pow(2.0, 5.0);
-    result = Math.sqrt(25);
-    result = Math.abs(-15);
-    result = Math.ceil(4.2);
-    result = Math.floor(4.7);
-    result = Math.max(5, 10);
-    result = Math.min(5, 10);
-    result = Math.round(4.6);
+    System.out.println("Math examples:");
+        System.out.println("Power: " + Math.pow(2, 5));
+        System.out.println("Square root: " + Math.sqrt(25));
+        System.out.println("Absolute: " + Math.abs(-15));
+        System.out.println("Ceil: " + Math.ceil(4.2));
+        System.out.println("Floor: " + Math.floor(4.7));
+        System.out.println("Max: " + Math.max(5, 10));
+        System.out.println("Min: " + Math.min(5, 10));
+        System.out.println("Round: " + Math.round(4.6));
+
 
 
     System.out.println(result);
