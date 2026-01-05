@@ -26,6 +26,7 @@ public class compoundInterestCal {
         amount = principal * Math.pow(1 + rate / timeCompounded, timeCompounded * years);
 
         System.out.println("The amount after " + years + " years is: $" + amount);
+        System.out.printf("The amount after %d years is $%.2f", years, amount);
 
 
 
